@@ -15,18 +15,18 @@ html {
     background-color: white;
 }
 .home-section {
-    height: 200px;
-    background-color: white;
+    /* height: 200px; */
+    background-color: black;
 }
 .products-section {
-    height: 200px;
+    /* height: 200px; */
     background-color: white;
 }
 .about-section {
-    height: 200px;
+    /* height: 200px; */
     background-color: white;
 }
 .contact-section {
-    height: 200px;
+    /* height: 200px; */
     background-color: white;
 }
