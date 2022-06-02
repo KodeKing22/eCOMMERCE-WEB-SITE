@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.header-nav {
+    height: 200px;
+    background-color: white;
+}
+.home-section {
+    height: 200px;
+    background-color: white;
+}
+.products-section {
+    height: 200px;
+    background-color: white;
+}
+.about-section {
+    height: 200px;
+    background-color: white;
+}
+.contact-section {
+    height: 200px;
+    background-color: white;
+}
