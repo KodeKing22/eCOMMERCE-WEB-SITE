@@ -11,6 +11,7 @@ html {
     font-size: 62.5%;
 }
 .header-nav {
+    /* ::before */
     height: 200px;
     background-color: white;
 }
@@ -28,5 +29,16 @@ html {
 }
 .contact-section {
     height: 200px;
-    background-color: rgb(226, 103, 32);
+    background-color: #fdfdfc;
 }
+
+.footer-section {
+    /* height: 200px; */
+    background-color: #bf7631;
+}    
+ /* {
+    height: 200px;
+}    
+{
+    height: 200px;
+}     */
