@@ -8,21 +8,21 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="eader-nav">
-      <h2>CARA<img src="./assets/icons8-pottery-96.png" alt="CARA CARA LOGO" /> CARA
-      </h2>
-      <nav>
-        <ul>
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#products">PRODUCTS</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="#cart">CART</a></li>
-        </ul>
-      </nav>
+    <header class="header-nav">
+        <nav>
+            <ul class="flex__container">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#cart">CART</a></li>
+            </ul>
+        </nav>
+        <h2>CARA<img src="./assets/icons8-pottery-96.png" alt="CARA CARA LOGO" /> CARA
+        </h2>
       <form>
-        <input type="button" value="serach" />
-        <img
+        <input type="text" value="" />
+        <img width="20"
           src="./assets/1200px-Google_Magnifying_Glass.svg.png"
           alt="1200px-Google_Magnifying_Glass"
         />
@@ -78,8 +78,9 @@
         PRODUCTS SECTION
 
         <h2>OUR PRODUCTS</h2>
-        <div>
-          <img
+    <div>
+        <div class="product__card">
+          <img class="card__img"
             src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"
             alt="Mundo Bowls"
           />
@@ -94,7 +95,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg"
             alt="Natureza Vase"
@@ -110,7 +111,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"
             alt="Feira Bowls"
@@ -126,7 +127,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg"
             alt="Natureza Pots"
@@ -142,7 +143,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg"
             alt="Pedra Vase"
@@ -158,7 +159,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg"
             alt="Viaja Pots"
@@ -174,7 +175,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg"
             alt="Servico Plates"
@@ -190,7 +191,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/oriento-l0ah3UBLppo-unsplash.jpg"
             alt="Campeao Vase"
@@ -206,7 +207,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
-        <div>
+        <div class="product__card">
           <img
             src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg"
             alt="Troca Bowls"
@@ -222,6 +223,7 @@
           </p>
           <a href="#">Learn More</a><button>Add to Cart!</button>
         </div>
+    </div>
       </section>
       <section id="CONTACT US" class="contact-section">
         CONTACT SECTION
