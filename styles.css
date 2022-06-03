@@ -27,6 +27,6 @@ html {
     background-color: white;
 }
 .contact-section {
-    /* height: 200px; */
-    background-color: white;
+    height: 200px;
+    background-color: rgb(226, 103, 32);
 }
